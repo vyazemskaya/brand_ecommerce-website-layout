@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Cart</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230602144205">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-one-select class="header text">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<div class="top-header__row">
+						<a href="#" class="top-header__logo logo-top-header"><picture><source data-srcset="img/logo.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/logo.png" alt="logo" class="logo-top-header__image" /></picture></a>
+						<form data-da=".top-header__container,767.98,last" data-dev action="#" class="top-header__search search-top-header">
+							<div class="search-top-header__body">
+								<input autocomplete="off" type="search" name="form[]" placeholder="Search" class="search-top-header__input input" />
+								<select name="form[]" class="search-top-header__select form">
+									<option value="1" selected>All categories</option>
+									<option value="2">Hot offers</option>
+									<option value="3">Gift boxes</option>
+								</select>
+							</div>
+							<button type="submit" class="search-top-header__btn btn">
+								<span class="btn__text">Search</span>
+							</button>
+						</form>
+						<div class="top-header__actions actions-top-header">
+							<a href="#" class="actions-top-header__item">
+								<span class="actions-top-header__text _icon-user">Profile</span>
+							</a>
+							<a href="#" class="actions-top-header__item actions-top-header__item_message">
+								<span class="actions-top-header__text _icon-message">Message</span>
+							</a>
+							<a href="#" class="actions-top-header__item actions-top-header__item_orders">
+								<span class="actions-top-header__text _icon-heart">Orders</span>
+							</a>
+							<a href="#" class="actions-top-header__item">
+								<span class="actions-top-header__text _icon-cart">My cart</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<div class="bottom-header__row">
+						<div data-da=".top-header__row,767.98,first" class="bottom-header__menu menu">
+							<button type="button" class="menu__icon icon-menu">
+								<span class="icon-menu__burger"><span></span></span>
+								<span class="icon-menu__text">All categories</span>
+							</button>
+							<div class="menu__wrap">
+								<div class="menu__background">
+									<button type="button" class="menu__close _icon-cross"></button>
+								</div>
+								<div class="menu__body">
+									<a href="#" class="menu__profile profile-menu _icon-user">
+										<span class="profile-menu__text text">Hello, sign in</span>
+									</a>
+									<div class="menu__content">
+										<div data-menu-id="1" class="menu__catalog">
+											<div class="menu__item">
+												<span class="menu__heading">Shop By Department</span>
+												<ul class="menu__list list-menu">
+													<li class="list-menu__item list-menu__item_parent">
+														<a data-menu-id="2" href="#" class="list-menu__link"><span class="list-menu__text">Electronics</span></a>
+													</li>
+													<li class="list-menu__item list-menu__item_parent">
+														<a data-menu-id="3" href="#" class="list-menu__link"><span class="list-menu__text">Computers</span></a>
+													</li>
+													<li class="list-menu__item list-menu__item_parent">
+														<a data-menu-id="4" href="#" class="list-menu__link"><span class="list-menu__text">Smart Home</span></a>
+													</li>
+													<li class="list-menu__item list-menu__item_parent">
+														<a data-menu-id="5" href="#" class="list-menu__link"><span class="list-menu__text">Arts & Crafts</span></a>
+													</li>
+												</ul>
+											</div>
+											<div class="menu__item">
+												<span class="menu__heading">Programs & Features</span>
+												<ul class="menu__list list-menu">
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Gift Cards</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Shop By Interest</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">International Shopping</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Arts & Crafts</span></a>
+													</li>
+													<li class="list-menu__item">
+														<div data-showmore="height" class="list-menu__showmore">
+															<div data-showmore-content="0" class="list-menu__content">
+																<ul class="list-menu">
+																	<li class="list-menu__item">
+																		<a href="#" class="list-menu__link"><span class="list-menu__text">Automotive</span></a>
+																	</li>
+																	<li class="list-menu__item">
+																		<a href="#" class="list-menu__link"><span class="list-menu__text">Baby</span></a>
+																	</li>
+																	<li class="list-menu__item">
+																		<a href="#" class="list-menu__link"><span class="list-menu__text">Beauty and personal care</span></a>
+																	</li>
+																	<li class="list-menu__item">
+																		<a href="#" class="list-menu__link"><span class="list-menu__text">Women's Fashion</span></a>
+																	</li>
+																	<li class="list-menu__item">
+																		<a href="#" class="list-menu__link"><span class="list-menu__text">Men's Fashion</span></a>
+																	</li>
+																</ul>
+															</div>
+															<button hidden data-showmore-button type="button" class="list-menu__showmore-btn _icon-select-arrow">
+																<span>See all</span><span>See less</span>
+															</button>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<div class="menu__item">
+												<span class="menu__heading">Help & Settings</span>
+												<ul class="menu__list list-menu">
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Your Account</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text _icon-globe">English</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Customer Service</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Sign in</span></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div data-menu-id="2" class="menu__catalog">
+											<button type="button" class="menu__back-btn _icon-arrow">
+												Main menu
+											</button>
+											<div class="menu__item">
+												<span class="menu__heading">Electronics</span>
+												<ul class="menu__list list-menu">
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Accessories & Supplies</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Camera & Photo</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Car & Vehicle Electronics</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Cell Phones & Accessories</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Computers & Accessories</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">GPS & Navigation</span></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div data-menu-id="3" class="menu__catalog">
+											<button type="button" class="menu__back-btn _icon-arrow">
+												Main menu
+											</button>
+											<div class="menu__item">
+												<span class="menu__heading">Computers</span>
+												<ul class="menu__list list-menu">
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Computer Accessories & Peripherals</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Computer Components</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Computers & Tabletss</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Data Storage</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">External Components</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Laptop Accessories</span></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div data-menu-id="4" class="menu__catalog">
+											<button type="button" class="menu__back-btn _icon-arrow">
+												Main menu
+											</button>
+											<div class="menu__item">
+												<span class="menu__heading">Smart Home</span>
+												<ul class="menu__list list-menu">
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Smart Home Lighting</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Smart Locks and Entry</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Security Cameras and Systems</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Plugs and Outlets</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">New Smart Devices</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Heating and Cooling</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Detectors and Sensors</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Home Entertainment</span></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div data-menu-id="5" class="menu__catalog">
+											<button type="button" class="menu__back-btn _icon-arrow">
+												Main menu
+											</button>
+											<div class="menu__item">
+												<span class="menu__heading">Arts & Crafts</span>
+												<ul class="menu__list list-menu">
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Painting, Drawing & Art Supplies</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Beading & Jewelry Making</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Crafting</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Fabric</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Fabric Decorating</span></a>
+													</li>
+													<li class="list-menu__item">
+														<a href="#" class="list-menu__link"><span class="list-menu__text">Heating and Cooling</span></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<nav class="bottom-header__navbar navbar-bottom-header">
+							<ul class="navbar-bottom-header__list">
+								<li class="navbar-bottom-header__item">
+									<a href="#" class="navbar-bottom-header__link">Hot offers</a>
+								</li>
+								<li class="navbar-bottom-header__item">
+									<a href="#" class="navbar-bottom-header__link">Gift boxes</a>
+								</li>
+								<li class="navbar-bottom-header__item">
+									<a href="#" class="navbar-bottom-header__link">Projects</a>
+								</li>
+								<li class="navbar-bottom-header__item">
+									<a href="#" class="navbar-bottom-header__link">Menu item</a>
+								</li>
+								<li class="navbar-bottom-header__item">
+									<a href="#" class="navbar-bottom-header__link">Help</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="bottom-header__nav-tools">
+							<select name="form[]" class="bottom-header__select form">
+								<option value="1" selected>English, USD</option>
+								<option value="2">Español, EUR</option>
+								<option value="3">Deutsch, EUR</option>
+								<option value="4">Russian, RUB</option>
+							</select>
+							<select data-pseudo-label="Ship to:" name="form[]" class="bottom-header__select form">
+								<option data-asset="img/flags/germany.png" value="1" selected>
+									Germany
+								</option>
+								<option data-asset="img/flags/france.png" value="2">France</option>
+								<option data-asset="img/flags/us.png" value="3">US</option>
+								<option data-asset="img/flags/ru.png" value="4">Russia</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main cart">
+			<div class="cart__container text">
+				<div class="cart__main">
+					<h1 class="cart__title">My cart (3)</h1>
+					<div class="cart__grid">
+						<div class="cart__body">
+							<div class="cart__items">
+								<div class="cart__item item-cart">
+									<div class="item-cart__info">
+										<a href="#" class="item-cart__image-wrap">
+											<picture><source data-srcset="img/hero-product/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero-product/01.webp" alt="t-shirt in grey color" class="item-cart__image" /></picture>
+										</a>
+										<div class="item-cart__content">
+											<h2 class="item-cart__title">
+												T-shirts with multiple colors, for men and women
+											</h2>
+											<p class="item-cart__text">
+												Size: medium, Color: blue, Material: Plastic Seller:
+												Artel Market
+											</p>
+										</div>
+										<div class="item-cart__actions">
+											<button type="button" class="item-cart__btn btn btn_white">
+												<span class="btn__text btn__text_red">Remove</span>
+											</button>
+											<button type="button" class="item-cart__btn btn btn_white">
+												<span class="btn__text btn__text_blue">Save for later</span>
+											</button>
+										</div>
+									</div>
+									<div class="item-cart__price">
+										<span class="item-cart__price-value">$78.99</span>
+										<div class="item-cart__quantity quantity">
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1" />
+											</div>
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+										</div>
+									</div>
+								</div>
+								<div class="cart__item item-cart">
+									<div class="item-cart__info">
+										<a href="#" class="item-cart__image-wrap">
+											<picture><source data-srcset="img/hero-product/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero-product/01.webp" alt="t-shirt in grey color" class="item-cart__image" /></picture>
+										</a>
+										<div class="item-cart__content">
+											<h2 class="item-cart__title">
+												T-shirts with multiple colors, for men and women
+											</h2>
+											<p class="item-cart__text">
+												Size: medium, Color: blue, Material: Plastic Seller:
+												Artel Market
+											</p>
+										</div>
+										<div class="item-cart__actions">
+											<button type="button" class="item-cart__btn btn btn_white">
+												<span class="btn__text btn__text_red">Remove</span>
+											</button>
+											<button type="button" class="item-cart__btn btn btn_white">
+												<span class="btn__text btn__text_blue">Save for later</span>
+											</button>
+										</div>
+									</div>
+									<div class="item-cart__price">
+										<span class="item-cart__price-value">$78.99</span>
+										<div class="item-cart__quantity quantity">
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1" />
+											</div>
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+										</div>
+									</div>
+								</div>
+								<div class="cart__item item-cart">
+									<div class="item-cart__info">
+										<a href="#" class="item-cart__image-wrap">
+											<picture><source data-srcset="img/hero-product/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero-product/01.webp" alt="t-shirt in grey color" class="item-cart__image" /></picture>
+										</a>
+										<div class="item-cart__content">
+											<h2 class="item-cart__title">
+												T-shirts with multiple colors, for men and women
+											</h2>
+											<p class="item-cart__text">
+												Size: medium, Color: blue, Material: Plastic Seller:
+												Artel Market
+											</p>
+										</div>
+										<div class="item-cart__actions">
+											<button type="button" class="item-cart__btn btn btn_white">
+												<span class="btn__text btn__text_red">Remove</span>
+											</button>
+											<button type="button" class="item-cart__btn btn btn_white">
+												<span class="btn__text btn__text_blue">Save for later</span>
+											</button>
+										</div>
+									</div>
+									<div class="item-cart__price">
+										<span class="item-cart__price-value">$78.99</span>
+										<div class="item-cart__quantity quantity">
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1" />
+											</div>
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cart__actions">
+								<a href="#" class="cart__btn cart__btn_goback btn _icon-arrow"><span class="btn__text">Back to shop</span></a>
+								<button type="button" class="cart__btn btn btn_white">
+									<span class="btn__text btn__text_blue">Remove all</span>
+								</button>
+							</div>
+						</div>
+						<div class="cart__aside">
+							<div class="cart__coupon coupon-cart">
+								<span class="coupon-cart__heading">Have a coupon?</span>
+								<div class="coupon-cart__group">
+									<input autocomplete="off" type="text" name="form[]" data-placeholder="Add coupon" data-value="" class="coupon-cart__input input" />
+									<button type="button" class="coupon-cart__btn btn btn_white">
+										<span class="btn__text btn__text_blue">Apply</span>
+									</button>
+								</div>
+							</div>
+							<div class="cart__summary summary-cart">
+								<div class="summary-cart__group">
+									<div class="summary-cart__item">
+										<span class="summary-cart__heading">Subtotal:</span>
+										<span class="summary-cart__price">$1403.97</span>
+									</div>
+									<div class="summary-cart__item">
+										<span class="summary-cart__heading">Discount:</span>
+										<span class="summary-cart__price summary-cart__price_red">-$60.00</span>
+									</div>
+									<div class="summary-cart__item">
+										<span class="summary-cart__heading">Tax:</span>
+										<span class="summary-cart__price summary-cart__price_green">+$14.00</span>
+									</div>
+								</div>
+								<div class="summary-cart__total">
+									<span class="summary-cart__heading">Total:</span>
+									<span class="summary-cart__price">$1357.97</span>
+								</div>
+								<button data-da=".summary-cart__footer,767.98,1" type="button" class="summary-cart__btn btn btn_green">
+									<span class="btn__text">Checkout</span>
+								</button>
+								<div class="summary-cart__footer">
+									<div class="summary-cart__payment payment-summary-cart">
+										<a href="#" class="payment-summary-cart__image-wrap">
+											<picture><source data-srcset="img/payment/a-express.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/payment/a-express.png" aria-hidden="true" alt="" class="payment-summary-cart__image" /></picture>
+										</a>
+										<a href="#" class="payment-summary-cart__image-wrap">
+											<picture><source data-srcset="img/payment/master-card.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/payment/master-card.png" aria-hidden="true" alt="" class="payment-summary-cart__image" /></picture>
+										</a>
+										<a href="#" class="payment-summary-cart__image-wrap">
+											<picture><source data-srcset="img/payment/paypal.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/payment/paypal.png" aria-hidden="true" alt="" class="payment-summary-cart__image" /></picture>
+										</a>
+										<a href="#" class="payment-summary-cart__image-wrap">
+											<picture><source data-srcset="img/payment/visa.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/payment/visa.png" aria-hidden="true" alt="" class="payment-summary-cart__image" /></picture>
+										</a>
+										<a href="#" class="payment-summary-cart__image-wrap">
+											<picture><source data-srcset="img/payment/apple-pay.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/payment/apple-pay.png" aria-hidden="true" alt="" class="payment-summary-cart__image" /></picture>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cart__features features-cart">
+							<div class="features-cart__item">
+								<span class="features-cart__icon _icon-lock"></span>
+								<div class="features-cart__text">
+									<h3 class="features-cart__heading h3">Secure payment</h3>
+									<p class="features-cart__txt">
+										Lorem ipsum dolor sit amet, consectetur.
+									</p>
+								</div>
+							</div>
+							<div class="features-cart__item">
+								<span class="features-cart__icon _icon-message"></span>
+								<div class="features-cart__text">
+									<h3 class="features-cart__heading h3">Customer support</h3>
+									<p class="features-cart__txt">
+										Lorem ipsum dolor sit amet, consectetur.
+									</p>
+								</div>
+							</div>
+							<div class="features-cart__item">
+								<span class="features-cart__icon _icon-truck"></span>
+								<div class="features-cart__text">
+									<h3 class="features-cart__heading h3">Free delivery</h3>
+									<p class="features-cart__txt">
+										Lorem ipsum dolor sit amet, consectetur.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cart__banner banner">
+						<div class="banner__body">
+							<div class="banner__text">
+								<h3 class="banner__heading">
+									Super discount on more than 100 USD
+								</h3>
+								<p class="banner__txt text">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Iste doloremque, quas excepturi ex eveniet cupiditate?
+								</p>
+							</div>
+							<a href="#" class="banner__btn btn btn_orange"><span class="btn__text">Shop now</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__newsletter newsletter-footer">
+				<div class="newsletter-footer__container">
+					<h2 class="newsletter-footer__title h2">Subscribe on our newsletter</h2>
+					<p class="newsletter-footer__text text">
+						Get daily news on upcoming offers from many suppliers all over the world
+					</p>
+					<form data-dev action="#" class="newsletter-footer__form">
+						<div class="newsletter-footer__input-wrap _icon-email">
+							<input data-validate data-required="email" autocomplete="off" type="text" name="form[]" data-error placeholder="Email" class="newsletter-footer__input input" />
+						</div>
+						<button type="submit" class="newsletter-footer__btn btn">
+							<span class="btn__text">Subscribe</span>
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="footer__nav nav-footer">
+				<div class="nav-footer__container">
+					<div class="nav-footer__info info-nav-footer">
+						<a href="#" class="info-nav-footer__logo"><picture><source data-srcset="img/logo.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/logo.png" alt="logo" class="info-nav-footer__logo-image" /></picture></a>
+						<p class="info-nav-footer__text text">
+							Best information about the company gies here but now lorem ipsum is
+						</p>
+						<ul class="info-nav-footer__list list-info-nav-footer">
+							<li class="list-info-nav-footer__item">
+								<a href="#" class="list-info-nav-footer__link _icon-facebook"></a>
+							</li>
+							<li class="list-info-nav-footer__item">
+								<a href="#" class="list-info-nav-footer__link _icon-twitter"></a>
+							</li>
+							<li class="list-info-nav-footer__item">
+								<a href="#" class="list-info-nav-footer__link _icon-linkedin"></a>
+							</li>
+							<li class="list-info-nav-footer__item">
+								<a href="#" class="list-info-nav-footer__link _icon-instagram"></a>
+							</li>
+							<li class="list-info-nav-footer__item">
+								<a href="#" class="list-info-nav-footer__link _icon-youtube"></a>
+							</li>
+						</ul>
+					</div>
+					<nav class="nav-footer__wrap">
+						<ul class="nav-footer__list">
+							<li class="nav-footer__column column-nav-footer">
+								<h3 class="column-nav-footer__heading h3">About</h3>
+								<ul class="column-nav-footer__sublist text">
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">About us</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Find store</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Categories</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Blogs</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-footer__column column-nav-footer">
+								<h3 class="column-nav-footer__heading h3">Partnership</h3>
+								<ul class="column-nav-footer__sublist text">
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">About us</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Find store</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Categories</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Blogs</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-footer__column column-nav-footer">
+								<h3 class="column-nav-footer__heading h3">Information</h3>
+								<ul class="column-nav-footer__sublist text">
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Help center</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Money Refund</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Shipping</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Contact us</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-footer__column column-nav-footer">
+								<h3 class="column-nav-footer__heading h3">For users</h3>
+								<ul class="column-nav-footer__sublist text">
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Login</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Register</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">Settings</a>
+									</li>
+									<li class="column-nav-footer__item">
+										<a href="#" class="column-nav-footer__item-link">My Orders</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<div class="nav-footer__app app-nav-footer">
+						<h3 class="app-nav-footer__heading h3">Get app</h3>
+						<div class="app-nav-footer__items">
+							<a href="#" class="app-nav-footer__item">
+								<picture><source data-srcset="img/footer/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/footer/01.png" alt="get it on app store" class="app-nav-footer__image" /></picture>
+							</a>
+							<a href="#" class="app-nav-footer__item">
+								<picture><source data-srcset="img/footer/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/footer/02.png" alt="get it on google play" class="app-nav-footer__image" /></picture>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copyright copyright-footer">
+				<div class="copyright-footer__container">
+					<p class="copyright-footer__text text">© 2023 Ecommerce</p>
+					<select name="form[]" class="copyright-footer__select form">
+						<option data-asset="img/flags/us.png" value="1" selected>
+							English, USD
+						</option>
+						<option data-asset="img/flags/france.png" value="2">France</option>
+						<option data-asset="img/flags/us.png" value="3">US</option>
+						<option data-asset="img/flags/ru.png" value="4">Russia</option>
+					</select>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20230602144205"></script>
+</body>
+
+</html>
